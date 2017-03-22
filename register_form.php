@@ -89,8 +89,8 @@ $result = $conn->query($query);
 </tr>
 <tr>
       <td><p>เพศ:</p></td>
-      <td><input type="radio" class="radio" name="sex" id="sex" value="Male"  > ชาย </td>
-      <td><input type="radio" class="radio" name="sex" id="sex" value="Female" > หญิง </td>
+      <td><input type="radio" class="radio" name="sex" id="sex1" value="Male"  > ชาย </td>
+      <td><input type="radio" class="radio" name="sex" id="sex2" value="Female" > หญิง </td>
 </tr>
 <tr>
       <td><p>ความสนใจ:</p></td>
@@ -130,7 +130,7 @@ $('#submit').on('click',function(event) {
                       errorMessage+="โปรดป้อน email ให้ถูกต้อง\n";
                       valid=false;
       }
-    if($('#sex').prop("checked")==false && $('#sex').prop("checked")==true){
+    if($('#sex1').prop("checked")==false && $('#sex2').prop("checked")==true){
                   errorMessage += "โปรดเลือก เพศ \n";
                   valid = false;
        }

@@ -48,7 +48,7 @@ $result = $conn->query($query);
 <img src="http://image.coolz-server.com/s/VgJDQdCt" class="black-ribbon stick-top stick-left"/>
 <div class="jumbotron">
   <div class="container text-center">
-    <h1>Web Programming</h1>      
+    <h1>Web Programmings</h1>      
     <p>Lab 7, Register , Dopost & Show Register</p>
   </div>
 </div>
